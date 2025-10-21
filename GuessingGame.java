@@ -13,7 +13,6 @@ public class GuessingGame {
         System.out.println("Please, guess my name.");
         userGuess = scanner.nextLine();
         guessCounter++;
-
         if (userGuess.equalsIgnoreCase(correctName)) {
             gameWon = true;
         }
@@ -34,9 +33,6 @@ public class GuessingGame {
                 gameWon = true;
             }
         }
-
-
-        
 
 
 
